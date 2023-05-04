@@ -1,3 +1,5 @@
+In ExpenseTotal.js you will be adding useContext and AppContext. Taking the expenses from state.
+
 import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 
