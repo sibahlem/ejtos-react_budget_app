@@ -1,6 +1,5 @@
-the Expenseitem component.
-In Expenseitem.js you will be importing dispatch from Context, which allows you to dispatch a delete action,
-    creating a function that gets called when the delete icon is clicked.
+/*In Expenseitem.js you will be importing dispatch from Context, which allows you to dispatch a delete action,
+    creating a function that gets called when the delete icon is clicked.*/
 
 import React, { useContext } from 'react';
 import { TiDelete } from 'react-icons/ti';
@@ -41,3 +40,7 @@ const ExpenseItem = (props) => {
 };
 
 export default ExpenseItem;
+
+/*Here, you are dispatching an action.
+Your action contains the type (so the reducer knows how to update the state) and the payload.
+In this case you are passing the ID of this expense (which you get from props when you rendered the ExpenseList).*/
