@@ -1,3 +1,7 @@
+the Expenseitem component.
+In Expenseitem.js you will be importing dispatch from Context, which allows you to dispatch a delete action,
+    creating a function that gets called when the delete icon is clicked.
+
 import React, { useContext } from 'react';
 import { TiDelete } from 'react-icons/ti';
 import { AppContext } from '../context/AppContext';
