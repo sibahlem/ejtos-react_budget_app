@@ -1,4 +1,4 @@
-In Remaining.js you will be importing expense and budget from context and getting the remaining value using subtraction.
+//In Remaining.js you will be importing expense and budget from context and getting the remaining value using subtraction.
 
 import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
@@ -20,3 +20,7 @@ const Remaining = () => {
 };
 
 export default Remaining;
+
+/*Here, you are using the reduce function to get a total of all the costs, assigning this to a variable and displaying the variable in your JSX.
+Now whenever the user adds an expense, this causes the state to update,
+which will cause all components connected to the context to re-render and update themselves with new values.*/
