@@ -1,4 +1,4 @@
-In ExpenseList.js you will be using the map function to display the Expenseitem component.
+//In ExpenseList.js you will be using the map function to display the Expenseitem component.
 
 import React, { useContext } from 'react';
 import ExpenseItem from './ExpenseItem';
@@ -27,3 +27,5 @@ const ExpenseList = () => {
 };
 
 export default ExpenseList;
+
+//Here, you are creating a list, using the map function to iterate over the expenses, and displaying an ExpenseItem component.
