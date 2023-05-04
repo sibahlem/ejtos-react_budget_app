@@ -1,3 +1,7 @@
+/*In AppContext.js you will be creating reducer, which is used to update the state, based on the action. Then you will set the initial state for the departments. You will be creating the Provider component which wraps the components you want to give access to the state.
+Here, you are adding an initial budget, creating a Provider component, setting up the useReducer hook which will hold your state, and allow you to update the state via dispatch.
+Adding a new case to the switch statement called “ADD_EXPENSE”, “RED_EXPENSE”, “DELETE_EXPENSE”.*/
+
 import React, { createContext, useReducer } from 'react';
 
 // 5. The reducer - this is used to update the state, based on the action
